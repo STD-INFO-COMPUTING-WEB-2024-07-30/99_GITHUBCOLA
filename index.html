@@ -3,10 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Typing Practice Game</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        #target-text {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        #user-input {
+            font-size: 18px;
+            padding: 10px;
+            width: 300px;
+        }
+        #feedback {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+        #timer {
+            margin-top: 10px;
+            font-size: 18px;
+        }
+    </style>
 </head>
 <body>
-    HELLO WORLD;wefwef
-    wefwef
+
+    <h1>Typing Practice Game</h1>
+    <p id="target-text">The quick brown fox jumps over the lazy dog.</p>
+    <input type="text" id="user-input" placeholder="Start typing..." />
+    <p id="feedback">Start typing to begin...</p>
+    <p id="timer">Time: 0 seconds</p>
+
+    <script src="typing-game.js"></script>
+        
 </body>
 </html>
