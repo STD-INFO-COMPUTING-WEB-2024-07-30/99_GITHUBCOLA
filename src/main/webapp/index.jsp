@@ -7,6 +7,8 @@
 <title>Insert title here</title>
 </head>
 <body>
-	HELLO WORLD
+	<h1>HELLO WORLD</h1>
+	<hr/>
+	안녕하세요 <b>심성완</b> 입니다.
 </body>
 </html>
