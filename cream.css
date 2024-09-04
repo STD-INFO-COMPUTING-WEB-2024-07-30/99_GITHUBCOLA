@@ -72,3 +72,38 @@ body{}
     
 
 }
+
+.banner{
+   
+    height : 500px;
+    background-color: lightgray;
+}
+
+.banner .carousel-item .carousel-inner{
+
+}
+.banner .carousel-item{
+
+  
+    height : 500px !important;
+
+}
+.banner .carousel-item .items{
+    height : 100%;
+    min-width : 18vw;
+    display:grid;
+    grid-template-columns: repeat(3 ,1fr);
+    gap:20px;
+    border : 1px solid;
+    
+}
+.banner .carousel-item .items >.item{
+    width : 100%;
+    min-width : 200px;
+   
+    height : 100%;
+    border : 1px solid ;
+}
+.layout{
+    padding : 0 200px;
+}
