@@ -69,9 +69,9 @@ public class C01IF {
 
 		if(a>b) {
 			max = a;
-		}if(a<b) {
+		}if(max<b) {
 			max=b;
-		}if(b<c) {
+		}if(max<c) {
 			max=c;
 		}
 		System.out.println(max);
