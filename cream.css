@@ -1,0 +1,109 @@
+root{}
+*{}
+ul{
+    list-style: none;
+    margin : 0;
+    padding : 0;
+}
+li{
+    list-style: none;
+    margin : 0;
+    padding : 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+body{}
+.header{
+    
+}
+.wrapper{}
+.header-top{
+    background-color: rgba(237,72,215,0.6);
+}
+
+
+.header-top{
+    display: flex;
+    justify-content: right;
+}
+.top_inner{
+    display: flex;
+    gap: 10px;
+}
+
+.top_inner>a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav{
+    display: flex;
+    justify-content: right;
+}
+
+.nav_color{
+    background-color: white;
+}
+.top_under{
+    display: flex;
+    gap: 35px;
+    justify-content: left;
+    align-items: center;
+    background-color: rgba(237,72,215,0.6);
+
+    
+}
+
+.top_under>li>a{
+    text-decoration: none;
+    color: white;
+    
+}
+.body_top{
+    display: flex; 
+    
+}
+
+.card{
+    
+
+}
+
+.banner{
+   
+    height : 500px;
+    background-color: lightgray;
+}
+
+.banner .carousel-item .carousel-inner{
+
+}
+.banner .carousel-item{
+
+  
+    height : 500px !important;
+
+}
+.banner .carousel-item .items{
+    height : 100%;
+    min-width : 18vw;
+    display:grid;
+    grid-template-columns: repeat(3 ,1fr);
+    gap:20px;
+    border : 1px solid;
+    
+}
+.banner .carousel-item .items >.item{
+    width : 100%;
+    min-width : 200px;
+   
+    height : 100%;
+    border : 1px solid ;
+}
+.layout{
+    padding : 0 200px;
+}
